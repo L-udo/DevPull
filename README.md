@@ -1,3 +1,6 @@
+A Image Scraper for the popular Artist website "Deviantart"
+
+
 only requirements for this software are:
 selenium
 requests
