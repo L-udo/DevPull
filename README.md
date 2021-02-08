@@ -1,6 +1,12 @@
 A Image Scraper for the popular Artist website "Deviantart"
 
 
+This application was designed in the wake of a AI furry image generator project
+hopefully i will release my contributions to this software on my github..
+
+this application is designed to scrape through the 209 availible pages of devientart
+and designed to output a file containing a list of the urls scraped for the images as well
+as a folder containing the images automatically downloaded after the scraping process
 
 
 
