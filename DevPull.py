@@ -42,6 +42,16 @@ def image_discov():
         print("\n")
     x = 0
 
+    print("Please select file format. Please type (NO CAPS. and include '.') either .jpg or .png")
+    global gigga
+    gigga = input("░▒▓█UwU█▓▒░:")
+
+    while x < 40:
+        x = x + 1
+        print("\n")
+    x = 0
+
+
     print("Search Term(s)")
     dev_url = "https://www.deviantart.com/search/deviations?page="
     search_term = "&q=" + input("░▒▓█UwU█▓▒░:").replace(" ","%20")
@@ -113,6 +123,7 @@ def image_discov():
         for image in images:
             try:
                 imag = image.get_attribute('src')
+                imag = imag.replace("q_70,strp", "q_100,strp")
                 urls_U.write(imag + "\n")
             except:
                 print("There was a Error writing to Unfiltered_Output.txt PLease check your current directory or permissions!")
@@ -152,7 +163,7 @@ def filter_and_output():
     for lines in urls:
         x = x + 1
         img = requests.get(lines.strip('\n'))
-        img_name = "Dev_image" + str(x) + ".png"
+        img_name = "Dev_image" + str(x) + str(gigga)
         file = open( path + "\img_out/" + img_name, "wb")
         file.write(img.content)
         file.close()
