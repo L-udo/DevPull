@@ -22,9 +22,9 @@ tested or untested:
     
  BUGS / PROBLEMS:
  
- What causes the problem:
+  What causes the problem:
  
- Effect of the problem
+  Effect of the problem
  
  possible fixes:
  
