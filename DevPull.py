@@ -6,7 +6,7 @@ import time
 import requests
 import os
 
-# CODE WRITTEN BY LUDO you can find me on instagram at @ludo_the_wusky or on Twitter @Ludo_Dash
+# CODE WRITTEN BY LUDO you can find me on instagram at @ludo_the_wusky or on Twitter @LudoDash
 
 #setup
 path = os.getcwd()
@@ -43,8 +43,8 @@ def image_discov():
     x = 0
 
     print("Please select file format. Please type (NO CAPS. and include '.') either .jpg or .png")
-    global gigga
-    gigga = input("░▒▓█UwU█▓▒░:")
+    global filefmt
+    filefmt = input("░▒▓█UwU█▓▒░:")
 
     while x < 40:
         x = x + 1
@@ -163,7 +163,7 @@ def filter_and_output():
     for lines in urls:
         x = x + 1
         img = requests.get(lines.strip('\n'))
-        img_name = "Dev_image" + str(x) + str(gigga)
+        img_name = "Dev_image" + str(x) + str(filefmt)
         file = open( path + "\img_out/" + img_name, "wb")
         file.write(img.content)
         file.close()
