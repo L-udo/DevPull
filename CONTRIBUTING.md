@@ -26,7 +26,7 @@ tested or untested:
  
  Effect of the problem
  
- possible fix:
+ possible fixes:
  
  
 
