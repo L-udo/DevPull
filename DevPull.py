@@ -103,9 +103,8 @@ def image_discov():
 
     #start Scraping image urls
     x = 0
-    g = 0
     if numofpage == "":
-        g = 209
+        numofpage = 209
     else:
         g = numofpage
 
