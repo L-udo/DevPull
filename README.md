@@ -46,7 +46,6 @@ AND AWAY YOU GO!
 
 HAPPY SCRAPING!!!!!!!
 
-UwU
 .
 .
-oh and yes.. I know there is a far more efficient way of doing this to get around bot detection, but I was lazy and I didnt want to jump into Http/https get requests and cookies. 
+oh and yes.. I know there is a far more efficient way of doing this to get around bot detection, but I was lazy F
